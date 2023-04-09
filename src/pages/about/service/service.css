@@ -1,0 +1,139 @@
+.about__service {
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 34rem;
+}
+
+.about-service__title {
+  font-size: 2rem;
+  color: #0ead8e;
+}
+
+.about-service__desc {
+  text-align: justify;
+  text-indent: 3rem;
+}
+
+.about-service__content {
+  display: grid;
+  grid-template-columns: repeat(2, 14rem);
+  gap: 3rem 2rem;
+  justify-content: flex-end;
+  margin-top: 5rem;
+}
+
+.service__item,
+.service__disabled {
+  position: relative;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: var(--nav-theme);
+  border: 0 -1px 6px #00000030;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  transition: 0.2s;
+}
+.service__item i,
+.service__disabled i {
+  color: #0ead8e;
+}
+
+.service__item:hover {
+  transform: scale(105%);
+}
+
+.service__disabled::before {
+  content: 'Coming Soon';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--disable-box-theme);
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.service__name {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .about-service__content {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1169px) {
+  .about__service {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+  .about-service__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1102px) {
+  .service-icon {
+    font-size: 1.7rem;
+  }
+  .service__name,
+  .service__disabled::before {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 1044px) {
+  .about__service {
+    grid-template-columns: 1fr;
+  }
+  .about-service__content {
+    grid-template-columns: repeat(3, 13rem);
+    gap: 2rem;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 932px) {
+  .about-service__content {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .about-service__content {
+    grid-template-columns: repeat(2, 14rem);
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .about-service__content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .about-service__content {
+    grid-template-columns: repeat(1, 12rem);
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 209px) {
+  .about-service__content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}

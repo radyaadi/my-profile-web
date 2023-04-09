@@ -1,0 +1,135 @@
+.portfolio__section {
+  margin: 7rem 0 5rem;
+}
+
+.portfolio__title {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 3rem;
+  align-items: center;
+}
+
+.portfolio__title > span {
+  display: table;
+}
+.portfolio__title > span > h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.portfolio__contect {
+  display: grid;
+  grid-template-columns: repeat(3, 23rem);
+  gap: 2rem;
+  justify-content: center;
+  margin-block: 2rem;
+}
+
+.project__card {
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  padding: 1.3rem;
+}
+
+.project__card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: var(--nav-theme);
+  border: 0 -1px 6px #00000030;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project__image {
+  object-fit: cover;
+  width: 100%;
+  min-height: 13rem;
+  max-height: 13rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 2px #0ead8e;
+}
+
+.project__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-theme);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.project__name {
+  font-size: 1.1rem;
+}
+
+.project__category {
+  color: var(--category-font-theme);
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
+
+.item-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+}
+
+@media screen and (max-width: 1334px) {
+  .portfolio__contect {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1071px) {
+  .portfolio__contect {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 1132px) {
+  .portfolio__contect {
+    grid-template-columns: repeat(2, 23rem);
+    gap: 1.5rem 3rem;
+  }
+}
+@media screen and (max-width: 995px) {
+  .portfolio__contect {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 3rem;
+  }
+}
+@media screen and (max-width: 749px) {
+  .portfolio__contect {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 718px) {
+  .portfolio__contect {
+    grid-template-columns: repeat(1, 22rem);
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .portfolio__title {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  .portfolio__contect {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 246px) {
+  .project__title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
