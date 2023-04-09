@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
-import './app.css';
+import './styles/style.css';
 
 // window.addEventListener('load', () => {
 //   const tabsBox = document.querySelector('.tabs__box');
