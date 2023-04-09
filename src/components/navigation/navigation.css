@@ -129,7 +129,7 @@
     bottom: 0;
     left: 0;
     box-shadow: 0 -1px 6px #00000030;
-    background-color: var(--nav-theme);
+    background-color: var(--box-theme);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: all ease-in-out 0.3s;
   }
