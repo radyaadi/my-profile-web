@@ -27,7 +27,7 @@
   position: relative;
   text-align: center;
   border-radius: 1rem;
-  background-color: var(--nav-theme);
+  background-color: var(--box-theme);
   border: 0 -1px 6px #00000030;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   padding: 2rem;
