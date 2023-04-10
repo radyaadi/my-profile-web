@@ -34,7 +34,7 @@
 .project__card:hover {
   cursor: pointer;
   transform: scale(1.1);
-  background-color: var(--nav-theme);
+  background-color: var(--box-theme);
   border: 0 -1px 6px #00000030;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
