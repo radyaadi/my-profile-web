@@ -15,7 +15,7 @@ const Navigation = () => {
       </Link>
       <div className={`nav__menu ${nav ? 'nav__hide' : ''}`}>
         <div className="nav__toggle" onClick={() => setNav(!nav)}>
-          <i className={nav ? 'uil uil-angle-down' : 'uil uil-angle-up'}></i>
+          <i className={nav ? 'uil uil-angle-up' : 'uil uil-angle-down'}></i>
         </div>
         <ul className="nav__list">
           <li className="nav__item" title="home">
