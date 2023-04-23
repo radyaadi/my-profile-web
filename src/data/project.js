@@ -27,7 +27,7 @@ let projects = [
     siteUrl: 'https://radya-valorant.netlify.app',
     repoUrl: 'https://github.com/radyaadi/SiValorant',
     imgUrl: 'https://drive.google.com/uc?id=1_la_SbCvgMsouC4PDs_0ta_XGwxPhi2B',
-    tags: ['#front-end', '#npm', '#webpack', '#jquery', '#fecth-api'],
+    tags: ['#front-end', '#npm', '#webpack', '#jquery', '#fetch-api'],
   },
   // {
   //   id: '003-uuid',
@@ -104,6 +104,24 @@ let projects = [
       '#react-hooks',
       '#react-context',
       '#react-router',
+      '#single-page',
+    ],
+  },
+  {
+    id: '008-uuid',
+    name: 'TvMaze Movie',
+    createdAt: '2023-04-23',
+    category: 'web',
+    description:
+      'TvMaze Movie is a Vue project that displays data from tv maze api. The focus of this project is Vue for creating web components to display a list of movies from TV Maze. The data taken is limited to the girl category',
+    siteUrl: 'https://github.com/radyaadi/jobhun-frontend-test',
+    repoUrl: 'https://github.com/radyaadi/jobhun-frontend-test',
+    imgUrl: 'https://drive.google.com/uc?id=1ujnikdnmgKScYd6vLzzOk7rfcu9W0Iou',
+    tags: [
+      '#vue-js',
+      '#vue-router',
+      '#single-file-component',
+      '#fetch-api',
       '#single-page',
     ],
   },

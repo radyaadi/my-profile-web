@@ -12,6 +12,12 @@ let service = [
     icon: 'bx bxl-react',
   },
   {
+    name: 'vue-js',
+    title: 'Vue Js',
+    available: false,
+    icon: 'bx bxl-vuejs',
+  },
+  {
     name: 'machine-learning',
     title: 'Machine Learning',
     available: false,
